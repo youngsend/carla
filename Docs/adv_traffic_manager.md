@@ -133,7 +133,7 @@ __Related .cpp files:__ `PIDController.cpp`.
 
 Stores information about the vehicles in the world so that it can be easily accessible during all the process.  
 
-*   Receives the current state of all vehicles and walkers in the world from the [ALSM](#alsm), including their position, velocity and some additional information (such as traffic light influence and state). It also stores some additional information such as whereas these vehicles are under the inffluence of a traffic light and what is the current state of said traffic light.  
+*   Receives the current state of all vehicles and walkers in the world from the [ALSM](#alsm), including their position, velocity and some additional information (such as traffic light influence and state). It also stores some additional information such as whether these vehicles are under the influence of a traffic light and what is the current state of said traffic light.  
 *   Stores in cache all the information so that no additional calls to the server are needed during the [control loop](#control-loop).  
 
 __Related .cpp files:__ `SimulationState.cpp`, `SimulationState.h`.  
